@@ -16,4 +16,4 @@ const mapDispatchToProps = (dispatch) => {
         removeCar: (index) => dispatch(removeCar(index))
     }
 }
-export default connect(mapStateToProps)(Dashboard)
+export default connect(mapStateToProps,mapDispatchToProps)(Dashboard)
